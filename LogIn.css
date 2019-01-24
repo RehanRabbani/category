@@ -1,0 +1,87 @@
+
+.LogInParent{
+    
+    display: flex;
+    flex-direction: column;
+    height: 600;
+    width: 100%;
+    height: 34em;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+.LogInParent >section > button{
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+.secondpara > span{
+    color: #00ccff;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.LogInParent>section>h1{
+    font-weight: bold;
+    font-size: 2em;
+   
+
+}
+
+@media only screen and (min-width: 722px) {
+    body{
+        margin: 2em;
+    }
+ .LogInParent>section{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+ 
+}
+.input-group{
+    width: 50% ;
+}
+button{
+    width: 50% !important;
+   
+}
+}
+@media only screen and (max-width: 600px) {
+
+.LogInParent > section:nth-child(1) {
+    display: flex;
+    
+    align-self: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em;
+    
+}
+.LogInParent > section:nth-child(2){
+    margin-top: 2em;
+    padding: 0.5em;
+}
+.LogInParent > section:nth-child(3){
+    margin-top: 11em;
+    padding: 1em;
+}
+.input-group-text{
+    background-color: transparent;
+}
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...}  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

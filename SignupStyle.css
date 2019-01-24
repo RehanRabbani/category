@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.SignUpParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+margin: 1em;
+
+}
+.SignUpParent > p {
+    color: #495057;
+    margin: 0px;
+}
+.SignUpParent>section > button{
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+.SignUpTwo,.SignUpThree{
+    margin-top: 2.5em;
+}
+.SignUpFont{
+    font-family: 'Monoton', cursive;
+}
+@media only screen and (min-width: 992px){
+    body{
+        margin: 2em;
+    }
+    .SignUpParent{
+        height:600px;
+    }
+ .SignUpParent>section{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+ 
+}
+.input-group{
+    width: 50% ;
+}
+button{
+    width: 50% !important;
+   
+}
+}
+@media only screen and (max-width: 600px){
+.SignUpParent > h1{
+    font-size: 2em;
+}
+.SignUpParent > h1>span{
+    font-family: 'Monoton', cursive;
+}
+.input-group-text{
+    background-color: transparent;
+}
+.secondpara
+{
+    padding-top: 1em;
+}
+.secondpara > span{
+    color: #00ccff;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...}  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
